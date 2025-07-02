@@ -101,12 +101,13 @@ poetry run pytest
 ### Структура проекта:
 
 ```
-fastapi_salary/
+Python_TestTask/
 ├── server.py              # Основное приложение FastAPI
 ├── test_login.py          # Тест: авторизация
 ├── test_salary.py         # Тест: доступ к /salary
 ├── pyproject.toml         # Poetry-конфигурация
 ├── poetry.lock            # Зафиксированные зависимости
+├── requirements.txt       # Альтернатива для установки зависимостей через pip
 └── README.md              # Инструкция по запуску и API
 ```
 
